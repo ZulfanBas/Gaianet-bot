@@ -42,17 +42,4 @@ The response file `response.txt` will contain:
 ```
 The capital of France is Paris.
 ```
-
-## Troubleshooting
-
-- Ensure you have an active internet connection.
-- Check the API endpoint and payload structure if you encounter issues.
-- Make sure you have the necessary permissions to write to the file system.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
 Feel free to modify the code and contribute to this project by creating pull requests. Happy coding!
