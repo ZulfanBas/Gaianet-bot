@@ -1,7 +1,7 @@
 import requests
 
 def ask_question(question):
-    url = "https://knowledge2.gaianet.network/v1/chat/completions"
+    url = "https://onimu.gaia.domains/v1/chat/completions"
     payload = {
         "messages": [
             {"role": "system", "content": "You are an AI assistant designed to provide clear, concise, and accurate answers to user queries. Your primary functions include retrieving relevant information from the provided RAG (Retrieval-Augmented Generation) data and utilizing your pre-training data when necessary. Make your answer as short as possible that suitable for the length of a tweet. If no relevant information is found, you will inform the user that you are not familiar with the knowledge."},
